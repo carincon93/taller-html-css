@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My account</title>
+		<link rel="stylesheet" href="./app.css" />
+		<link rel="stylesheet" href="./custom.css" />
+	</head>
+	<body>
+		<div class="d-flex align-items-center justify-content-center hv-full">
+			<figure>
+				<img
+					src="./online-mobile-banking-internet-banking-isometric-design-concept-cashless-society-security-transaction-via-credit-card_73903-311.jpg"
+					alt="payment-image"
+				/>
+			</figure>
+			<form action="paid.html" method="POST" class="w-25">
+				<h1 class="title">Services payment</h1>
+				<p style="margin-bottom: 0">Credit card number</p>
+				<div class="mt-15 d-flex">
+					<input
+						type="number"
+						id="first_numbers"
+						class="form-input p-6 w-25"
+						placeholder=""
+						required
+						style="margin-left: 4px"
+					/>
+					<input
+						type="number"
+						id="second_numbers"
+						class="form-input p-6 w-25"
+						placeholder=""
+						required
+						style="margin-left: 4px"
+					/>
+					<input
+						type="number"
+						id="third_numbers"
+						class="form-input p-6 w-25"
+						placeholder=""
+						required
+						style="margin-left: 4px"
+					/>
+					<input
+						type="number"
+						id="fourth_numbers"
+						class="form-input p-6 w-25"
+						placeholder=""
+						required
+						style="margin-left: 4px"
+					/>
+				</div>
+				<div class="mt-15">
+					<p style="margin-bottom: 0">Month and year</p>
+					<div class="mt-15 d-flex">
+						<select name="month" id="month" class="w-50 p-6">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						</select>
+
+						<select
+							name="year"
+							id="year"
+							class="w-50 p-6"
+							style="margin-left: 4px"
+						>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+						</select>
+					</div>
+				</div>
+				<p style="margin-bottom: 0">CCV</p>
+				<div class="mt-15">
+					<input
+						type="number"
+						id="ccv"
+						class="form-input p-6"
+						placeholder=""
+						required
+						style="margin-left: 4px"
+					/>
+				</div>
+				<p style="margin-bottom: 0">Services</p>
+				<div class="mt-15">
+					<select name="services" id="services" class="p-6 w-full" required>
+						<option value="Electricity ($40 eur)">Electricity ($40 eur)</option>
+						<option value="Comunications ($70 eur)">
+							Comunications ($70 eur)
+						</option>
+					</select>
+				</div>
+				<div class="mt-15">
+					<button class="btn-login p-6">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							style="width: 24px"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

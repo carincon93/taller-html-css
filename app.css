@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.form-input {
+    display: block;
+    width: -webkit-fill-available;
+}
+
+.form-input:focus {
+    color: darkmagenta;
+    outline-color: darkmagenta;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-75 {
+    width: 55%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.mt-15 {
+    margin-top: 1.5em;
+}
+
+.p-6 {
+    padding: 0.6em;
+}
+
+.hv-full {
+    height: 100vmin;
+}
+

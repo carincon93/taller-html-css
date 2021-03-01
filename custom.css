@@ -1,0 +1,49 @@
+.success {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.btn-login {
+    appearance: none;
+    background-color: darkmagenta;
+    border: 0;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+.btn-login:hover {
+    background-color: rgb(126, 2, 126);
+    cursor: pointer;
+}
+
+.btn-login:hover svg {
+    transform: translateX(6px);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.title {
+    color: darkmagenta;
+}
+
+.btn-back-login {
+    background: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-back-login:hover svg {
+    transform: translateX(-6px);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+figure {
+    transform: translateY(20px);
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+}
